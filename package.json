@@ -1,0 +1,23 @@
+{
+    "name": "brackets-console-log",
+    "title": "Console Log All the Things",
+    "version": "1.0.0",
+    "description": "Generates a console.log from the currently selected variable",
+    "homepage": "https://github.com/Steamforge/brackets-console-log",
+    "author": "Josh Studley <josh.studley@gmail.com> (https://github.com/Steamforge/brackets-console-log)",
+    "license": "MIT",
+    "keywords": [
+        "brackets",
+        "javascript",
+        "console",
+        "log"
+    ],
+    "files": [
+        "main.js",
+        "package.json",
+        "README.md"
+    ],
+    "engines": {
+        "brackets": ">=0.24.0"
+    }
+}
