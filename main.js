@@ -11,7 +11,7 @@ define(function (require, exports, module) {
   var Menus = brackets.getModule('command/Menus');
 
   var addSomeText = function() {
-  var currentDoc = DocumentManager.getCurrentDocument();
+    var currentDoc = DocumentManager.getCurrentDocument();
     var editor = EditorManager.getCurrentFullEditor();
     var pos = editor.getCursorPos();
     var line = currentDoc.getLine(pos.line);
@@ -24,7 +24,7 @@ define(function (require, exports, module) {
     }
     var newPos = {line: pos.line, ch: line.length + 1};
 
-    currentDoc.replaceRange('\nconsole.log(\''+selectedText+'\', '+selectedText+');', newPos);
+    currentDoc.replaceRange('\nconsole.log(\'' + selectedText + '\', ' + selectedText + ');', newPos);
     doc.indentLine(newPos.line + 1, 'smart');
   };
 
@@ -37,5 +37,3 @@ define(function (require, exports, module) {
   var contextMenu = Menus.getContextMenu(Menus.ContextMenuIds.EDITOR_MENU);
   contextMenu.addMenuItem(MY_COMMAND_ID);
 });
-
-var test = '';
