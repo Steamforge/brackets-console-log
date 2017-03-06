@@ -1,8 +1,6 @@
 # console.log(All_the_Things)
 
-![console.log(All_the_Things)](https://cdn.meme.am/cache/instances/folder566/500x/75962566.jpg)
-
-console.log('All the Things') is a [Brackets](https://github.com/adobe/brackets) extension which generates a `console.log()` of the curently selected javascript variable:
+console.log(All_the_Things) is a [Brackets](https://github.com/adobe/brackets) extension which generates a `console.log()` of the curently selected javascript variable:
 
 Before:
 
@@ -22,4 +20,6 @@ You can access this function from the `EDIT` menu, the context menu or the short
 
 1. Run Brackets.
 2. Select _File > Extension Manager..._
-3. Find “console.log('All the Things')” extension and click “Install” button
+3. Find “brackets_console_log” extension and click “Install” button
+
+![console.log(All_the_Things)](https://cdn.meme.am/cache/instances/folder566/500x/75962566.jpg)
