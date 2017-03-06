@@ -1,4 +1,6 @@
-# console.log('All the Things')
+# console.log(All_the_Things)
+
+![console.log(All_the_Things)](https://cdn.meme.am/cache/instances/folder566/500x/75962566.jpg)
 
 console.log('All the Things') is a [Brackets](https://github.com/adobe/brackets) extension which generates a `console.log()` of the curently selected javascript variable:
 
